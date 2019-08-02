@@ -2,3 +2,10 @@ age = 20
 if age >= 18:
     print('Your age is', age)
     print('adult')
+    age = 3
+    if age >= 18:
+        print('Your name is', age)
+        print('adult')
+    else:
+        print('Your name is', age)
+        print('teenager')
