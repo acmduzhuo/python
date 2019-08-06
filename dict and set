@@ -1,0 +1,37 @@
+# names = ['Michael', 'Bob', 'Tracy']
+# scores = [95, 75, 85]
+# d = {'Michael':95, 'Bob':75, 'Tracy':85}
+# print(d['Michael'])
+# d['Adam'] = 67
+# print(d['Adam'])#一一对应，后面的值会取代前面的值
+# d['Jack'] = 90
+# print(d['Jack'])
+# d['Meik'] = 90
+# print(d['Meik'])
+# print(d['Thomas']) #这货不存在
+# print('Thomas' in d) #输出False，表示不存在于该数组
+# print(d.get('Thomas'))
+# d.get('Thomas', -1)#指定指向
+# print(d.pop('Bob'))# 删除'Bob'，对应75也会被删除
+# print(d)# 输出{'Michael': 95, 'Tracy': 85, 'Adam': 67, 'Jack': 90}
+# s = set([1, 2, 3])
+# print(s)
+#s = set([1, 1, 2, 2, 3, 3])#重复元素不会显示
+# print(s)
+#s.add(4)
+# print(s)
+# s.add(4)3重复增加也不会显示
+# print(s)
+# s.remove(4)#删除元素
+# print(s)
+# s1 = set([1, 2, 3])
+# s2 = set([2, 3, 4])
+# print(s1 & s2)#交
+# print(s1 | s2)#并
+# a = ['c', 'b', 'a']
+# a.sort()#排序
+# print(a)
+a = 'abc'
+b = a.replace('a', 'A')
+print(a)#不变
+print(b)#改变所以，对于不变对象来说，调用对象自身的任意方法，也不会改变该对象自身的内容。相反，这些方法会创建新的对象并返回，这样，就保证了不可变对象本身永远是不可变的
