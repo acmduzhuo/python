@@ -38,4 +38,5 @@
 # print(bool(''))# False
 # a = abs
 # print(a(-1))#a指向abs函数
-print(hex(123))
+# print(hex(123))
+print(sum([1, 2, 3]))#求和，记得是sum[]
