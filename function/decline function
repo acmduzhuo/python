@@ -1,0 +1,9 @@
+# def my_abs(x):
+#     if x >= 0:
+#         return x
+#     else:
+#   return -x
+
+# age = 8
+# if age >= 18:
+#     pass# 占位符
