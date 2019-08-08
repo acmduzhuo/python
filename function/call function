@@ -1,0 +1,41 @@
+# print(abs(100))
+# print(abs(-20))
+# print(abs(12.34))//求绝对值
+# print(abs(1,2))#他报错了
+#print(abs('a'))# 'a'是str类型
+# n = input(int())
+# i = 1
+# while i<=n:
+#     x = input(int())
+
+#
+# x=int(input())
+# a=[]
+# n=input().split(" ")
+# for i in range(0,x):
+#     a.append(int(n[i]))
+# max  = a[0]
+# maxx = abs(a[0])
+# # print('max = ', max)
+# # print('maxx = ', maxx)
+# for i in range(0,len(a)):
+#     if abs(a[i]) > maxx :
+#         # print('a[', i,'] = ', a[i])
+#         max = a[i]
+#         maxx = abs(a[i])
+# print(max)# SDUTACM oj 1147
+
+#
+# print(max(1, 2))
+# print(max(2, 3, 1, -6))# 取最大值
+# print(int('123'))
+# print(int(12.34))
+# print(float(12))#显示12.0
+#  print(float(12.34))
+# print(float(12.345))#显示12.345
+# print(str(123))# Python交互环境下显示’123‘，pycharm显示123
+# print(bool(1)) #True
+# print(bool(''))# False
+# a = abs
+# print(a(-1))#a指向abs函数
+print(hex(123))
